@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Number Guessing Game</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+<div class="box">
+  <h1>Number Guessing</h1>
+  <p>Guess a number between 1 to 10:</p>
+  <input type="number" id="guessField">
+  <button onclick="checkGuess()">Guess</button>
+  <p>Chances left: <span id="chancesLeft">3</span></p>
+  <p id="message"></p>
+</div>
+
+  <script src="app.js"></script>
+</body>
+</html>
